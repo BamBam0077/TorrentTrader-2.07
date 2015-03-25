@@ -1,0 +1,154 @@
+/* Link colors */
+A:link			{ text-decoration: none; color: #0000AA; font-size:8pt;}
+A:visited		{ text-decoration: none; color: #0000AA; font-size:8pt;}
+A:active		{ text-decoration: none; color: #000050; font-size:8pt;}
+A:hover			{ text-decoration: underline; color: #0000AA; font-size:8pt;}
+
+/* Define BODY style */
+BODY { font-size:8pt; font-family: Verdana; }	
+TD { font-size:8pt; font-family: Verdana; }	
+H1 { font-size:8pt; font-family: Verdana; }	
+
+/* DEFINE THE EXPAND CROSS LOCATION IN TORRENTTABLE */
+.showthecross{ margin-top: 0px; margin-right: 0px; margin-left: 2px; float: left;}
+
+/* TORRENTTABLE() */
+.ttable_headouter { border-collapse: collapse; }
+.ttable_headinner {	border-collapse: collapse; border:1px solid #9999CC; }
+.ttable_head { font-family: 'Verdana'; color: #000000; font-size: 8pt; background: #66CCFF; text-align: center;}
+.ttable_col1 { font-family: 'Verdana'; border:1px solid #9999CC; font-size: 8pt; background: #F7F7F7; }
+.ttable_col2 { font-family: 'Verdana'; border:1px solid #9999CC; font-size: 8pt; background: #ECECEC; }
+.ttable_colx { font-family: 'Verdana'; border:1px solid #9999CC; font-size: 8pt; background: #ECECEC; }
+
+/* Define Other Tables */
+.table_table { border: #000000; border-style: border-style; border-width: 1px; border-collapse:collapse; }
+.table_head { font-family: 'Verdana'; border:1px solid #666699; font-size: 8pt; background: #66CCFF; color: #000000; }
+.table_col1 { font-family: 'Verdana'; border:1px solid #666699; font-size: 8pt; background: #F7F7F7; }
+.table_col2 { font-family: 'Verdana'; border:1px solid #666699; font-size: 8pt; background: #ECECEC; }
+
+/* BLOCK STYLE */
+.captionleft{ width: 22px; background-image: url(images/capleft.png); }
+.captionbar{ 
+	background-repeat: repeat-x;
+	padding-right:1px;
+	font-size: 11px;
+	color: #000060;
+	font-family: verdana, tahoma, arial, sans-serif;
+	background-image: url(images/capcenter.png);
+	vertical-align: text-top;
+	padding-top: 10px;
+	padding-left: 2px;
+	text-align: center;
+	font-weight: bold;
+}
+.captionend{ width: 12px; background-image: url(images/capcenter.png); } /**/
+.captionmain{ width: 100%; background-repeat: repeat-x; background-image: url(images/capcenter.png); }
+.captionright{ width: 22px; background-image: url(images/capright.png); }
+.bodyleft2{ width: 11px; background-repeat: repeat-y; background-image: url(images/left.png); }
+.bodymain2{ width: 100%; background-image: url(images/main.png); padding: 4px 5px 5px 4px; font-size: 10px; color: #000; font-family: verdana, tahoma, arial, sans-serif; vertical-align:top; }
+.bodyright2{ width: 12px; background-repeat: repeat-y; background-image: url(images/right.png); }
+.bottomleft{ width: 22px; background-image: url(images/bottomleft.png); }
+.bottommain{ width: 100%; background-repeat: repeat-x; background-image: url(images/bottom.png);}
+.bottomright{ width: 21px; background-image: url(images/bottomright.png); }
+
+/* FRAME STYLE */
+.captionleft2{ width: 22px; background-image: url(images/capleft_orange.png); }
+.captionbar2{ 
+	background-repeat: repeat-x;
+	padding-right:1px;
+	font-size: 11px;
+	color: #000060;
+	font-family: verdana, tahoma, arial, sans-serif;
+	background-image: url(images/capcenter_orange.png);
+	vertical-align: text-top;
+	padding-top: 10px;
+	padding-left: 2px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.captionend2{ width: 12px; background-image: url(images/capcenter_orange.png); } /**/
+.captionmain2{ width: 100%; background-repeat: repeat-x; background-image: url(images/capcenter_orange.png); }
+.captionright2{ width: 22px; background-image: url(images/capright_orange.png); }
+
+/* top navigation bar bg*/
+td.subnav{
+	background-image:url("images/subnav.png");
+	height:34px;
+}
+
+/* Torrents-details download box*/
+#downloadbox {
+	padding: .75em;
+	background-color: #eff3fb;
+	border: 1px solid #8ba7cd;
+}
+
+/*DEFINE THE SHOUTBOX CSS */
+.shoutbox_body { font-family: verdana; color: black; float: middle; background-color: White; }
+.shoutbox_contain { border: 0; height: 150; width: 100%; overflow: auto; align: middle; }
+.shoutbox_history { border: 0;height: 100%;width: 100%;align: middle; }
+.shoutbox_messageboxback { background-color: White; }
+.shoutbox_noalt { background-color: White; }
+.shoutbox_alt { background-color: AliceBlue; }
+.shoutbox_msgbox { width: 100%; font-size: 12px; background-color: AliceBlue;border: 1px solid black; }
+.shoutbox_shoutbtn { font-size: 12px; background-color: AliceBlue;border: 1px solid black; font-weight: bold; }
+.shoutbox_error { color: red;font-size: 13px; }
+
+/* Blocks Management */
+.btn {
+    width: 60px;
+    height: 30px;
+    border : 1px solid #d0d0d0;
+    background-color : white;
+    color: black;
+    font-family : Verdana, serif;
+    font-size : 10pt;
+    font-weight : normal;
+    cursor:pointer;
+}
+.btnDisable {
+    width: 60px;
+    height: 30px;
+    border : 1px solid #d0d0d0;
+    background-color : white;
+    color: black;
+    font-family : Verdana, serif;
+    font-size : 10pt;
+    font-weight : normal;
+}
+
+.rowTabHead {
+    background-color : #66CCFF;
+    padding : 4px;
+    font-family : Verdana, Helvetica, sans-serif;
+    font-size : 10px;
+}
+
+.row1 {
+    background-color : #EFEFEF;
+    padding : 4px;
+    font-family : Verdana, Helvetica, sans-serif;
+    font-size : 10px;
+}
+
+.row2 {
+    padding : 4px;
+    font-family : Verdana, Helvetica, sans-serif;
+    font-size : 10px;
+    background-color: #F7F7F7;
+}
+
+.rowEnd {
+    padding : 4px;
+    font-family : Verdana, Helvetica, sans-serif;
+    font-size : 10px;
+    background-color: #CCCCCC;
+}
+
+.tablebg {
+    background-color : #666666;
+    padding : 0;
+    border : 0 solid #006699;
+    margin: 0;
+}
